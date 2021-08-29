@@ -1,0 +1,25 @@
+@import './reset.css';
+@import './variables.scss';
+@import './element-variables.scss';
+
+::-webkit-scrollbar {
+  width: 8.5px;
+  height: 8.5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, 0.3);
+}
+::-webkit-scrollbar-track {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, 0.1);
+}
+
+.basic-content {
+  box-sizing: border-box;
+  height: auto;
+  min-height: calc(100vh - 100px);
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #fff;
+}

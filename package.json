@@ -1,0 +1,42 @@
+{
+  "name": "vue3-playground",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:pre": "vue-tsc --noEmit && vite build --mode pre",
+    "lint:fix": "eslint --fix --ext .vue,.ts,.tsx,.js,.jsx,.json src",
+    "lint": "eslint --ext .vue,.ts,.tsx,.js,.jsx,.json src"
+  },
+  "dependencies": {
+    "@vueuse/core": "^5.0.3",
+    "@vueuse/rxjs": "^5.0.3",
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.48",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.0-alpha.16",
+    "rxjs": "^7.1.0",
+    "vue": "^3.0.11",
+    "vue-router": "^4.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.27.0",
+    "@typescript-eslint/parser": "^4.27.0",
+    "@vitejs/plugin-legacy": "^1.4.1",
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.1.1",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.11.1",
+    "prettier": "^2.3.1",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.7",
+    "vite-plugin-style-import": "^1.0.0",
+    "vue-tsc": "^0.1.7"
+  }
+}
